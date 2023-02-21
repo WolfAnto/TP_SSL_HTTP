@@ -93,7 +93,7 @@ scp server.csr rt@191.162.X.X:/home/rt/Bureau/server.csr
 
 Récupérer le fichier server.csr
 ```bash
-cp /home/rt/Desktop/server.csr /etc/ssl/
+cp /home/rt/Bureau/server.csr /etc/ssl/
 ```
 Créer un fichier de certification version 3
 ```bash
@@ -125,11 +125,11 @@ scp server.crt rt@191.162.X.X:/home/rt/Bureau/server.crt
 
 Récupérer le fichier server.csr
 ```bash
-cp /home/rt/Desktop/server.crt /etc/ssl/certs/server.crt
+cp /home/rt/Bueau/server.crt /etc/ssl/certs/server.crt
 ```
 Editez le fichier de configuration default-ssl
 ```bash
-nano /etc/apache2/site-available/default-ssl
+nano /etc/apache2/sites-available/default-ssl
 ```
 Vérifier que le serveur écoute bien sur le port 443 et qu'il utilise bien les bons certificats et clé.
 ```html
