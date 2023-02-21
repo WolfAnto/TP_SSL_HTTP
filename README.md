@@ -86,7 +86,7 @@ openssl req -config server.conf -new -sha256 -key server.key > server.csr
 Envoyer le fichier server.csr à l'autorité de certification
 ```bash
 (nécéssite SSH sur les deux machines)
-scp server.csr rt@191.162.X.X:/home/Desktop/server.csr
+scp server.csr rt@191.162.X.X:/home/rt/Bureau/server.csr
 ```
 
 # VM Autorité de certification
@@ -118,7 +118,7 @@ less server.crt
 ```
 Envoyer le fichier server.csr à l'autorité de certification
 ```bash
-scp server.crt rt@191.162.X.X:/home/Desktop/server.crt
+scp server.crt rt@191.162.X.X:/home/rt/Bureau/server.crt
 ```
 
 # VM Serveur WEB
@@ -169,7 +169,7 @@ Récupérer le fichier ca.crt du serveur Autorité de certification
 ```bash
 (Si le client est sous linux)
 (Depuis le serveur Autorité de certification vers Client HTTPS)
-scp ca.crt rt@191.162.X.X:/home/Desktop/server.crt
+scp ca.crt rt@191.162.X.X:/home/rt/Bureau/server.crt
 ```
 ```bash
 (Si le client est sous Windows)
