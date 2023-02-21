@@ -119,6 +119,7 @@ less server.crt
 Envoyer le fichier server.csr à l'autorité de certification
 ```bash
 scp server.crt rt@191.162.X.X:/home/rt/Bureau/server.crt
+scp ca.crt rt@191.162.X.X:/home/rt/Bureau/ca.crt
 ```
 
 # VM Serveur WEB
@@ -126,6 +127,8 @@ scp server.crt rt@191.162.X.X:/home/rt/Bureau/server.crt
 Récupérer le fichier server.csr
 ```bash
 cp /home/rt/Bueau/server.crt /etc/ssl/certs/server.crt
+cp /home/rt/Bueau/ca.crt /etc/ssl/certs/ca.crt
+cp server.key /etc/ssl/private/server.key
 ```
 Editez le fichier de configuration default-ssl
 ```bash
