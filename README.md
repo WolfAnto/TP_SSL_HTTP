@@ -182,17 +182,13 @@ Sous Windows, un clic droit sur le fichier devrait vous permettre de lancer l'as
 
 Sur Mozilla Firefox :
 ```bash
-Edition > Préférence > Confidentialité et Sécurité > Certificats
+Paramètre > Rechercher "Certificats" > Afficher les certificats
 ```
 ```bash
-Bouton de commande : gestion des certificats
-Onglet : autorité
-Bouton de commande : importer
+Onglet : Autorités
+Bouton de commande : Importer
 etc...
 ```
-```bash
-
-```
-```bash
-
-```
+![image](https://user-images.githubusercontent.com/73076854/220390285-3ed46c10-c4f9-4a7b-8ddc-897f2f19523d.png)
+![image](https://user-images.githubusercontent.com/73076854/220390407-a68b614c-7f8a-4167-8b75-0906feb41f1c.png)
+![image](https://user-images.githubusercontent.com/73076854/220390511-a38866f7-ac32-4e49-8a58-7645cd62778b.png)
