@@ -85,6 +85,7 @@ openssl req -config server.conf -new -sha256 -key server.key > server.csr
 ```
 Envoyer le fichier server.csr à l'autorité de certification
 ```bash
+(nécéssite SSH sur les deux machines)
 scp server.csr rt@191.162.X.X:/home/Desktop/server.csr
 ```
 
