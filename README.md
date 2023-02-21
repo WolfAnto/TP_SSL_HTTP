@@ -129,7 +129,7 @@ cp /home/rt/Bueau/server.crt /etc/ssl/certs/server.crt
 ```
 Editez le fichier de configuration default-ssl
 ```bash
-nano /etc/apache2/sites-available/default-ssl
+nano /etc/apache2/sites-available/default-ssl.conf
 ```
 Vérifier que le serveur écoute bien sur le port 443 et qu'il utilise bien les bons certificats et clé.
 ```html
