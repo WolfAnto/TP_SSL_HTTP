@@ -176,7 +176,7 @@ Récupérer le fichier ca.crt du serveur Autorité de certification
 ```bash
 (Si le client est sous linux)
 (Depuis le serveur Autorité de certification vers Client HTTPS)
-scp ca.crt rt@191.162.X.X:/home/rt/Bureau/server.crt
+scp ca.crt rt@191.162.X.X:/home/rt/Bureau/ca.crt
 ```
 ```bash
 (Si le client est sous Windows)
