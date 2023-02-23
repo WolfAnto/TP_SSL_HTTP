@@ -126,8 +126,8 @@ scp ca.crt rt@191.162.X.X:/home/rt/Bureau/ca.crt
 
 Récupérer le fichier server.csr
 ```bash
-cp /home/rt/Bueau/server.crt /etc/ssl/certs/server.crt
-cp /home/rt/Bueau/ca.crt /etc/ssl/certs/ca.crt
+cp /home/rt/Bureau/server.crt /etc/ssl/certs/server.crt
+cp /home/rt/Bureau/ca.crt /etc/ssl/certs/ca.crt
 cp server.key /etc/ssl/private/server.key
 ```
 Editez le fichier de configuration default-ssl
