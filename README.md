@@ -138,6 +138,7 @@ nano /etc/apache2/sites-available/default-ssl.conf
 Vérifier que le serveur écoute bien sur le port 443 et qu'il utilise bien les bons certificats et clé.
 Tous supprimer pour remplacer
 ```html
+<IfModule mod_ssl.c>
 <VirtualHost _DEFAULT_:443>
  ServerName localhost:443
  DocumentRoot /var/www/html
@@ -150,6 +151,7 @@ SSLCertificateKeyFile /etc/ssl/private/server.key
 # Server Certificate Chain CA :
 SSLCertificateChainFile /etc/ssl/certs/ca.crt
 </VirtualHost>
+</IfModule>
 ```
 Activer le module ssl
 ```bash
