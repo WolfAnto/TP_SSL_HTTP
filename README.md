@@ -132,9 +132,11 @@ cp server.key /etc/ssl/private/server.key
 ```
 Editez le fichier de configuration default-ssl
 ```bash
+cp /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf.save
 nano /etc/apache2/sites-available/default-ssl.conf
 ```
 Vérifier que le serveur écoute bien sur le port 443 et qu'il utilise bien les bons certificats et clé.
+Tous supprimer pour remplacer
 ```html
 <VirtualHost _DEFAULT_:443>
  ServerName localhost:443
